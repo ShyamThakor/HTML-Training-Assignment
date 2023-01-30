@@ -1,0 +1,229 @@
+<html lang="en">
+<head>
+    <link href="css/style_dash.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+  
+<div class="main">
+    
+    <div class="header">
+    <img src="images/menu-bar.svg" id="mb" alt=""/>
+    <img src="images/logo.svg" id="lg" alt=""/>
+    
+    <span class="SearchBar">
+    <img src="images/search-icon.svg" id="sb" alt=""/>
+    <input type="search" placeholder="Search" id="Search"/>
+    </span>
+
+    <span id="rear">
+    <img src="images/notification-icon.svg" id="bi" alt=""/>
+
+    <span id="avtar">
+        <img src="images/profile.png" id="pf"/>
+        <p id="pp">John Doe</p> 
+        <img src="images/downward-arrow.svg" id="dw"/>
+    </span>
+
+   </span>
+
+    </div>
+
+    <div class="content">
+       <div class="sectionbar">
+              <table>
+                <tr>
+                    <td>
+                        <a href="dashboard.html"> <img src="images/dashboard-default.svg" id="im" class="hv1" alt="">
+                        Dashboard</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""><img src="images/graph-default.svg" id="im" alt="">
+                        Analysis</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""><img src="images/inbox-default.svg" id="im" alt="">
+                        Inbox</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""> <img src="images/clock-default.svg" id="im" alt="">
+                        History</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href=""><img src="images/user-default.svg" id="im" alt="">
+                            Users</a>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            <a href=""> <img src="images/maintenance-default.svg" id="im" alt="">
+                            Maintenance</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    
+                        <td>
+                            <a href=""> <img src="images/setting-default.svg" id="im" alt="">
+                            Settings</a>
+                    </td>
+                </tr>
+              </table>
+        </div>
+
+        <div class="Analysis">
+            <br>
+
+            <p id="Ana">&nbsp &nbsp &nbsp Analysis</p>
+
+            <div class="OneColumn">
+                <h2 class="Oc">&nbsp &nbsp &nbsp &nbsp  One Column</h2>
+                <div class="it">
+                   <input type="text" id="in1" placeholder="Name"/><br>
+                   <input type="text" id="in1" placeholder="DropDown"/><br>
+                   <input type="text" id="in3"  placeholder="Multiple Line"/>
+
+                </div>
+
+            </div>
+
+            <div class="TwoColumn">
+               
+                <h2 >&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp Two Column</h2>
+               <div class="Twc">
+                 <div class="it2">
+                    <input type="text"  placeholder="Name"/>
+                   
+                    <input type="text" id="tcn1" placeholder="johndoe"/>
+                 </div>
+                 <div class="it21">
+                  
+                    <input type="text"  placeholder="Password"/>
+                    <select  id="tcn2" name="Dropdown">
+
+                        <option  disabled selected hidden>Dropdown</option>
+                    </select>
+                 </div>
+
+                </div>
+            </div>
+
+            <!-- third column -->
+
+            <div class="TwoColumn">
+               
+                <h2 >&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp Three Column</h2>
+               <div class="Thwc">
+                   <input type="text" id="aaa"></input>
+                   <input type="password" id="thwc2" value="  sdthakor">
+                   <input type="text" id="thwc2" disabled>
+                 </div>
+
+            </div>
+
+            <div class="TwoColumn">
+               
+                <h2 >&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp Four Column</h2>
+               <div class="fc">
+                   <input type="text" value="UI Designer">
+                   <input type="text" id="fc1" placeholder="Name">
+                   <input type="text" id="fc1" value="johndoe">
+                   <select type="text" id="fc1">
+
+                    <option>Select</option>
+                   </select>
+                 </div>
+
+            </div>
+
+            <!-- File Upload -->
+
+            <div class="TwoColumn">
+                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Other Design Elements</h2>
+                <div class="fileupload">
+                    <h3>File Upload</h3>
+                    <input type="file" value="Upload">
+                </div>
+            </div>
+
+            <!-- Radio button -->
+
+            <div class="TwoColumn">
+                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Radio Button</h2>
+                <div class="radioButton">
+                  <div class="btn1">
+                    <input type="radio">
+                    <label>option 1</label>
+                 </div>
+                  <div class="btn2">
+                    <input type="radio">
+                    <label>option 2</label>
+                  </div>
+
+                </div>
+            </div>
+
+            <div class="TwoColumn">
+                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Checkbox</h2>
+                <div class="radioButton">
+                  <div class="btn1">
+                    <input type="checkbox">
+                    <label>option 1</label>
+                 </div>
+                  <div class="btn2">
+                    <input type="checkbox">
+                    <label>option 2</label>
+                  </div>
+
+                </div>
+            </div>
+
+            <div class="TwoColumn">
+                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Snackbar</h2>
+                <div class="radioButton">
+                    <div class="it2">
+                        <input type="text" id="fmos" value="This is an error message" disabled/>
+                       
+                        <input type="text" id="fmos1" value="This is warning message" disabled/>
+                     </div>
+                     <div class="it21">
+                      
+                        <input type="text" id="fmos2" value="This is information message" disabled/>
+                        <input type="text"  id="fmos3" value="This is a Success message" disabled/>
+                   
+                     </div>
+
+                </div>
+            </div>
+
+            <div class="TwoColumn">
+                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Call to action</h2>
+                <div class="buttons">
+                   <button class="bt">Primary</button>
+                   <button class="bt1">Secondary</button>
+                </div>
+            </div>
+
+            <div class="TwoColumn">
+                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Tabs</h2>
+                
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
