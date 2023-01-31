@@ -777,3 +777,72 @@ input[type='radio']:after {
 .it2{
     margin-right: 30px;
 }
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    
+    .header{
+    width: 100%px;
+    height: 50px;
+    
+     }
+
+     #Search{
+        width: 200px;
+     }
+     a{
+    
+        width: 120px;
+        height: 30px;
+        display: flex;
+        text-decoration: none;
+        color: #3E3E3E;
+       
+    }
+
+    .sectionbar{
+        width: 160px;
+    }
+
+    #db{
+        font-size: 18px;
+    }
+     
+    .raw1{
+        display: flex;
+        float: left;
+        width: 25%;
+        
+    }
+
+    .box{
+        width: 70px;
+        margin-left: 15px;
+        padding-left: 10px;
+        padding-right: 60px;
+    }
+
+    .icon{
+        padding-top: 35px;
+        padding-left: 13px;
+         float: left;
+        height: 100%;
+    }
+
+     
+
+
+
+
+}
