@@ -6,13 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 </head>
 <body>
   
 <div class="main">
     
     <div class="header">
-    <img src="images/menu-bar.svg" id="mb" alt=""/>
+    <img src="images/menu-bar.svg" id="mb" alt="" onclick="openNav()"/>
     <img src="images/logo.svg" id="lg" alt=""/>
     
     <span class="SearchBar">
@@ -34,9 +44,10 @@
     </div>
 
     <div class="content">
-       <div class="sectionbar">
-              <table>
-                <tr>
+        <div  id="mySidenav" class="sidenav" >
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <table>
+                <tr class="hvr">
                     <td>
                         <a href="dashboard.html"> <img src="images/dashboard-default.svg" id="im" class="hv1" alt="">
                         Dashboard</a>
@@ -44,7 +55,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href="Analysis.html"><img src="images/graph-default.svg" id="im" alt="">
+                        <a href=""><img src="images/graph-default.svg" id="im" alt="">
                         Analysis</a>
                     </td>
                 </tr>
@@ -56,7 +67,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href=""> <img src="images/clock-default.svg" id="im" alt="">
+                        <a href="" > <img src="images/clock-default.svg" id="im" alt="">
                         History</a>
                     </td>
                 </tr>
@@ -69,10 +80,10 @@
                 <tr>
                         <td>
                             <a href=""> <img src="images/maintenance-default.svg" id="im" alt="">
-                            Maintenance</a>
+                           <b class="mnt"> Maintenance </b></a>
                     </td>
                 </tr>
-
+    
                 <tr>
                     
                         <td>
@@ -81,7 +92,11 @@
                     </td>
                 </tr>
               </table>
-        </div>
+            <!-- <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a> -->
+          </div>
 
         <div class="dashboard">
             <div>

@@ -3,6 +3,60 @@
     display: inline;
 }
 
+
+
+
+
+
+/* Sidebar */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .hvr :hover{
+    background-color: #FFF3F4;
+  }
+
+ 
+  
+  
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .mnt{
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+
+  /* ********* */
+  
 .header{
     
     height: 50px;
@@ -450,7 +504,7 @@ td :hover{
 .OneColumn{
     background-color: #FFFFFF;
     
-    margin-left: 300px;
+    margin-left: 100px;
     width: 75%;
     height: 300px;
 }
@@ -501,7 +555,7 @@ td :hover{
 
 .TwoColumn{
     background-color: #FFFFFF;
-    margin-left: 300px;
+    margin-left: 100px;
     padding-top: 10px;
     width: 75%;
 }
@@ -808,6 +862,7 @@ input[type='radio']:after {
     
         .sectionbar{
             width: 160px;
+            height: 350px;
         }
     
         #db{
@@ -992,6 +1047,144 @@ input[type='radio']:after {
         .india{
         padding-left: 10px;
         }
+
+/* 
+        Analysis */
+
+        .Analysis{
+            width:900px;
+        }
+        .it input{
+            margin: 10px;
+           
+            width: 500px;
+            height: 40px;
+        }
+
+        #Ana{
+            font-size: 20px;
+            padding-left: 72px;
+        }
+
+        .OneColumn{
+            margin-left: 100px;
+            height: 300px;
+        }
+
+        .it{
+            margin-left: 40px;
+        }
+
+        .it input{
+            margin: 10px;
+           
+            width: 500px;
+            height: 30px;
+        }
+
+        .TwoColumn{
+            margin-left: 100px;
+            width: 75%;
+        }
+
+        .Twc{
+            margin-left: 50px;
+        }
+
+        .it2 input{
+            width: 250px;
+            height: 30px;
+            border: 1px solid #ADADAD;
+            border-radius: 5px;
+            opacity: 1;
+        
+        }
+
+        .it21 input{
+            width: 250px;
+            height: 30px;
+            border: 1px solid #ADADAD;
+            border-radius: 5px;
+            opacity: 1;
+        }
+
+        .it21 select{
+            width: 250px;
+            height: 30px;
+            border: 1px solid #ADADAD;
+            border-radius: 5px;
+            opacity: 1;
+        }
+        .thwc{
+            padding-left: 50px;
+        }
+
+        .thwc input{
+            height: 30px; 
+            width: 28%;   
+            border-radius: 5px;
+            border: 1px solid #ADADAD;
+      }
+
+      .fc{
+        padding-left: 50px;
+    }
+
+    .fc input{
+        width: 21%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #ADADAD;
+        padding-left: 5px;
+    }
+
+    .fc select{
+        width: 23%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #ADADAD;
+        padding-left: 5px;
+    }
+
+
+    .fileupload{
+        margin-left: 0px;
+       
+    }
+
+    .radioButton{
+        margin-left: 50px;
+        display: flex;
+    }
+    
+    .errordiv,.errordiv1,.errordiv2,.errordiv3{
+        width: 240px;
+    }
+
+    .errordiv2 h4{
+        font-size: 15px;
+    }
+
+    .radioButton{
+        margin-left: 30px;
+        display: flex;
+    }
+    
+    .btn1{
+        margin-left: 20px;
+    }
+
+    .buttons{
+        margin-left:45px ;
+    }
+
+    .tabs{
+        margin-left: 47px;
+    }
+
+    .para{
+        margin-left: 50px;
+    }
         
         
     }
@@ -1104,6 +1297,11 @@ input[type='radio']:after {
             margin-left: 30px;
         }
 
+        .table_nav{
+            width: 100%;
+            float: left;
+        }
+
 
         .new_div{
             width: 72%;
@@ -1178,7 +1376,204 @@ input[type='radio']:after {
         #tc1{
            margin-left: 45px;
         }
+
+/* 
+        Analysis */
+
+        #Ana{
+            font-size: 18px;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+
+        .OneColumn{
+            margin-left: 50px;
+            height: 300px;
+            width: 90%;
+        }
+
+        .it{
+            margin-left: 10px;
+        }
+
+        .it input{
+            margin: 10px;
+           
+            width: 300px;
+            height: 25px;
+        }
+
+        .oc{
+            font-size: 20px;
+        }
+
+        .TwoColumn{
+            margin-left: 50px;
+            width: 90%;
+        }
+
+        .tc2{
+            font-size: 20px;
+        }
+
+        .Twc{
+            margin-left: 10px;
+        }
+
+        .it2{
+            padding-left: 13PX;
+
+        }
+
+        .it2 input{
+            width: 45%;
+            height: 25px;
+            border: 1px solid #ADADAD;
+            border-radius: 5px;
+            opacity: 1;
+        
+        }
+
+        .it21{
+            padding-left: 13PX;
+        }
+
+
+
+        .it21 input{
+            width: 40%;
+            height: 25px;
+            border: 1px solid #ADADAD;
+            border-radius: 5px;
+            opacity: 1;
+        }
+
+        .it21 select{
+            width: 42%;
+            height: 25px;
+            border: 1px solid #ADADAD;
+            border-radius: 5px;
+            opacity: 1;
+        }
+
+        .thwc{
+            padding-left: 30px;
+        }
+
+        .thwc input{
+            height: 25px; 
+            width: 26%;   
+            border-radius: 5px;
+            border: 1px solid #ADADAD;
+      }
+
+      .fc{
+        padding-left: 30px;
+    }
+
+    .threecolumn{
+        font-size: 20px;
+    }
+
+    .Fourcolumn{
+        font-size: 20px;
+    }
+
+    .fc input{
+        width: 21%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #ADADAD;
+        padding-left: 5px;
+    }
+
+    #fc0{
+        width: 80%;
+    }
+
+    #fc1{
+        margin-top: 20px;
+        width: 25%;
+    }
+
+    .ode{
+        font-size: 20px;
+    }
+
+    
+    .fileupload{
+        margin-left: 0px;
        
+    }
+
+    .radioButton{
+        margin-left: 30px;
+        display: flex;
+    }
+
+    .Rb{
+        font-size: 20px;
+    }
+
+    .Cb{
+        font-size: 20px;
+    }
+
+    .errordiv,.errordiv1,.errordiv2,.errordiv3{
+        width: 140px;
+    }
+
+    .errordiv,.errordiv1{
+        margin-left: 0px;
+    }
+
+    .errordiv h4{
+        font-size: 12px;
+    }
+
+    .errordiv1 h4{
+        font-size: 12px;
+    }
+
+    .errordiv2 h4{
+        font-size: 10.5px;
+    }
+
+    .errordiv3 h4{
+        font-size: 12px;
+    }
+
+    .errordiv2,.errordiv3{
+        margin-left: 0px;
+    }
+
+    .cta{
+        font-size: 20px;
+    }
+
+    .buttons{
+        margin-left:40px ;
+    }
+
+    .tbs{
+        font-size: 20px;
+    }
+
+    .tabs{
+        margin-left: 40px;
+    }
+
+    .para{
+        margin-left: 40px;
+    padding-top: 0px;
+    }
+    
+
+
+
+
+
+        
 
 
     }
@@ -1202,6 +1597,14 @@ input[type='radio']:after {
 
             #Search{
                 width: 700px;
+            }
+
+            .Analysis{
+                width: 100%;
+            }
+
+            #Ana{
+                margin-left: 40px;
             }
 
 

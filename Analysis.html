@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
+
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 </head>
 <body>
   
 <div class="main">
     
     <div class="header">
-    <img src="images/menu-bar.svg" id="mb" alt=""/>
+    <img src="images/menu-bar.svg" id="mb" alt="" onclick="openNav()"/>
     <img src="images/logo.svg" id="lg" alt=""/>
     
     <span class="SearchBar">
@@ -33,9 +43,61 @@
     </div>
 
     <div class="content">
-       <div class="sectionbar">
-              <table>
-                <tr>
+       <!-- <div class="sectionbar">
+        <table>
+            <tr>
+                <td>
+                    <a href="dashboard.html"> <img src="images/dashboard-default.svg" id="im" class="hv1" alt="">
+                    Dashboard</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""><img src="images/graph-default.svg" id="im" alt="">
+                    Analysis</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""><img src="images/inbox-default.svg" id="im" alt="">
+                    Inbox</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""> <img src="images/clock-default.svg" id="im" alt="">
+                    History</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""><img src="images/user-default.svg" id="im" alt="">
+                        Users</a>
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        <a href=""> <img src="images/maintenance-default.svg" id="im" alt="">
+                        Maintenance</a>
+                </td>
+            </tr>
+
+            <tr>
+                
+                    <td>
+                        <a href=""> <img src="images/setting-default.svg" id="im" alt="">
+                        Settings</a>
+                </td>
+            </tr>
+          </table>
+             
+        </div> -->
+
+
+        <div  id="mySidenav" class="sidenav" >
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <table>
+                <tr class="hvr">
                     <td>
                         <a href="dashboard.html"> <img src="images/dashboard-default.svg" id="im" class="hv1" alt="">
                         Dashboard</a>
@@ -55,7 +117,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <a href=""> <img src="images/clock-default.svg" id="im" alt="">
+                        <a href="" > <img src="images/clock-default.svg" id="im" alt="">
                         History</a>
                     </td>
                 </tr>
@@ -68,10 +130,10 @@
                 <tr>
                         <td>
                             <a href=""> <img src="images/maintenance-default.svg" id="im" alt="">
-                            Maintenance</a>
+                           <b class="mnt"> Maintenance </b></a>
                     </td>
                 </tr>
-
+    
                 <tr>
                     
                         <td>
@@ -80,27 +142,32 @@
                     </td>
                 </tr>
               </table>
-        </div>
+            <!-- <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a> -->
+          </div>
+
+          <!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+          
 
         <div class="Analysis">
             <br>
 
-            <p id="Ana">&nbsp &nbsp &nbsp Analysis</p>
+            <p id="Ana">&nbsp &nbsp &nbsp  Analysis</p>
 
             <div class="OneColumn">
-                <h2 class="Oc">&nbsp &nbsp &nbsp &nbsp  One Column</h2>
+                <h2 class="Oc">&nbsp &nbsp  One Column</h2>
                 <div class="it">
                    <input type="text" id="in1" placeholder="Name"/><br>
                    <input type="text" id="in1" placeholder="DropDown"/><br>
                    <input type="text" id="in3"  placeholder="Multiple Line"/>
-
                 </div>
-
             </div>
 
             <div class="TwoColumn">
                
-                <h2 >&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp Two Column</h2>
+                <h2 class="tc2">&nbsp &nbsp  &nbsp &nbsp  Two Column</h2>
                <div class="Twc">
                  <div class="it2">
                     <input type="text"  placeholder="Name"/>
@@ -123,7 +190,7 @@
 
             <div class="TwoColumn">
                
-                <h2 >&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp Three Column</h2>
+                <h2 class="Threecolumn">&nbsp &nbsp  &nbsp &nbsp Three Column</h2>
                <div class="Thwc">
                    <input type="text" id="aaa"></input>
                    <input type="password" id="thwc2" value="  sdthakor">
@@ -132,11 +199,14 @@
 
             </div>
 
+
+            <!-- Four Column -->
+
             <div class="TwoColumn">
                
-                <h2 >&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp Four Column</h2>
+                <h2 class="Fourcolumn" >&nbsp &nbsp  &nbsp &nbsp Four Column</h2>
                <div class="fc">
-                   <input type="text" value="UI Designer">
+                   <input type="text" id="fc0" value="UI Designer">
                    <input type="text" id="fc1" placeholder="Name">
                    <input type="text" id="fc1" value="johndoe">
                    <select type="text" id="fc1">
@@ -150,7 +220,7 @@
             <!-- File Upload -->
 
             <div class="TwoColumn">
-                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Other Design Elements</h2>
+                <h2 class="ode">&nbsp &nbsp &nbsp &nbsp Other Design Elements</h2>
                 <div class="fileupload">
                     <h3>File Upload</h3>
                     <input type="file" value="Upload">
@@ -160,7 +230,7 @@
             <!-- Radio button -->
 
             <div class="TwoColumn">
-                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Radio Button</h2>
+                <h2 class="Rb">&nbsp &nbsp &nbsp &nbsp Radio Button</h2>
                 <div class="radioButton">
                   <div class="btn1">
                     <input type="radio">
@@ -175,7 +245,7 @@
             </div>
 
             <div class="TwoColumn">
-                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Checkbox</h2>
+                <h2 class="Cb">&nbsp &nbsp &nbsp &nbsp Checkbox</h2>
                 <div class="radioButton">
                   <div class="btn1">
                     <input type="checkbox">
@@ -190,7 +260,7 @@
             </div>
 
             <div class="TwoColumn">
-                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Snackbar</h2>
+                <h2 >&nbsp &nbsp &nbsp &nbsp Snackbar</h2>
                 <div class="radioButton">
                     <div class="it2">
 
@@ -226,7 +296,7 @@
             </div>
 
             <div class="TwoColumn">
-                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Call to action</h2>
+                <h2 class="cta">&nbsp &nbsp &nbsp &nbsp Call to action</h2>
                 <div class="buttons">
                    <button class="bt">Primary</button>
                    <button class="bt1">Secondary</button>
@@ -234,7 +304,7 @@
             </div>
 
             <div class="TwoColumn">
-                <h2 >&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp Tabs</h2>
+                <h2 class="tbs">&nbsp &nbsp &nbsp &nbsp Tabs</h2>
                 <div class="tabs">
                     <h4 id="h11">Tab1</h4>
                     <h4>Tab2</h4>
