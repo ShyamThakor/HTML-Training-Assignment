@@ -929,18 +929,34 @@ input[type='radio']:after {
         }
 
         .raw2{
-            width: 50%;
+            width: 100%;
             float: left;
             display: block;
-            margin-left: 30px;
-            margin-top: 50px;
+            
+            margin-top: 60px;
         
         }
 
         .piChart{
             background-color: #FFFFFF;
-            margin-left: 25px;
+            margin-left: 0px;
+            display: inline-table;
+            margin-top: 20px;
+           
         }
+
+        #ptag{
+            padding-left: 100px;
+        }
+    
+        
+        .piChart img{
+         
+            width: 350px;
+            height: 200px;
+        }
+
+
 
         .new_div{
             width: 72%;
@@ -975,6 +991,7 @@ input[type='radio']:after {
 
         .piChart{
             height: 100px;
+            
         }
 
         
@@ -993,18 +1010,18 @@ input[type='radio']:after {
 
         .dot,.dot1,.dot2{
             height: 10px;
-            margin-top: 38px;
+            margin-top: 18px;
             width: 10px;
         }
 
         #dot{
             height: 25px;
             width: 25px;
-            margin-top: 18px;
+            margin-top: 8px;
         }
 
         .tc{
-            margin-left: 110px;
+            margin-left: 90px;
             height: 60px;
         }
 
@@ -1031,7 +1048,7 @@ input[type='radio']:after {
 
         .canada{
             display: flex;
-            margin-left: 110px;
+            margin-left: 0px;
             padding-bottom: 20px;
         }
 
@@ -1041,11 +1058,11 @@ input[type='radio']:after {
         }
 
         #tc1{
-            margin-left: 100px;
+            margin-left: 77px;
         }
        
         .india{
-        padding-left: 10px;
+        padding-right: 20px;
         }
 
 /* 
@@ -1600,14 +1617,58 @@ input[type='radio']:after {
             }
 
             .Analysis{
-                width: 100%;
+                width: 115%;
             }
 
             #Ana{
                 margin-left: 40px;
             }
 
+            .OneColumn input{
+                width: 80%;
 
+            }
+
+            .Oc{
+                margin-left: 25px;
+            }
+
+            .tc2{
+                margin-left: 25px;
+            }
+
+            .Threecolumn{
+                margin-left: 25px;
+            }
+
+            .Fourcolumn{
+                margin-left: 25px;
+            }
+
+            .ode{
+                margin-left: 25px;
+            }
+
+            .Rb,.Cb,.sbar,.cta,.tbs{
+                margin-left: 25px;
+
+            }
+
+            .it2 input{
+                width: 41%;
+
+            }
+
+            .it21 input{
+                width: 40%;
+            }
+            .it21 select{
+                width: 40.2%;
+            }
+
+            
+
+           
 
 
         }
