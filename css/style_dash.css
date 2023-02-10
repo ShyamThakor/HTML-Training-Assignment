@@ -877,8 +877,8 @@ input[type='radio']:after {
         }
     
         .box{
-            width: 35px;
-            margin-left: 10px;
+            width: 32%;
+            margin-left: 15px;
             height: 100px;
             padding-right: 60px;
         }
@@ -940,13 +940,14 @@ input[type='radio']:after {
         .piChart{
             background-color: #FFFFFF;
             margin-left: 0px;
+            width: 525px;
             display: inline-table;
             margin-top: 20px;
            
         }
 
         #ptag{
-            padding-left: 100px;
+            padding-left: 205px;
         }
     
         
@@ -1063,6 +1064,7 @@ input[type='radio']:after {
        
         .india{
         padding-right: 20px;
+        margin-left: 143px;
         }
 
 /* 
@@ -1215,6 +1217,10 @@ input[type='radio']:after {
             display: block;
         }
 
+        #pp{
+            visibility: hidden;
+        }
+
         
        
 
@@ -1268,12 +1274,18 @@ input[type='radio']:after {
 
         #db{
           
-            margin-top: 50px;
+            margin-top: 0px;
             margin-left: 15px;
         }
 
+
+        #iconimg{
+            width: 42px;
+            height: 42px;
+        }
+
         .raw1{
-            display: block;
+            display: inline-grid;
         }  
         
         #icon{
@@ -1291,7 +1303,14 @@ input[type='radio']:after {
 
         .sales{
             width: 50%;
-            display: block;
+            display: inline-block;
+        }
+
+        .piChart{
+            display: inline-table;
+            margin-top: 20px;
+            margin-left: 0;
+           
         }
 
 
@@ -1300,11 +1319,11 @@ input[type='radio']:after {
         #dg{
             width: 350px;
             height: 200px;
-            margin-top: 10px;
+            margin-top: 20px;
         }
 
         #ptag{
-            margin-left: 130px;
+            margin-left: 110px;
         }
 
         #ptag b{
@@ -1323,6 +1342,7 @@ input[type='radio']:after {
         .new_div{
             width: 72%;
             height: 45%;
+            margin-top: 30px;
         
         }
 
@@ -1583,14 +1603,7 @@ input[type='radio']:after {
     .para{
         margin-left: 40px;
     padding-top: 0px;
-    }
-    
-
-
-
-
-
-        
+    }    
 
 
     }
